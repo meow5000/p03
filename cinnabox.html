@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+
+  </head>
+
+<body>
+<div class="styleguide_margin">
+
+    <header>
+        <div class="nav3-div nav-div-lock">
+        <nav>
+
+          <div>
+           <a class="nav-item1" href="cinnabox.html">Styleguide ❤</a>
+           </div>
+
+            <div>
+           <a class="nav-item2" href="checkoutcart.html">Cart ❤</a>
+           </div>
+
+           <div>
+           <a class="nav-item3" href="#footer">Contact ❤</a>
+           </div>
+
+           <div>
+           <a class="nav-item4" href="productlisting.html">Blind Boxes ❤</a>
+           </div>
+
+         <div>
+         <a href="homepage.html" id="nav-logo"> DAPHNE BORREL  </a>
+         </div>
+
+        </nav>
+      </div>
+
+    <!-- NAVIGATION AT THE TOP  -->
+    <div class="main-nav-div">
+      <nav>
+        <a href="#interactive_elements" class="main-nav-item"> Interactive Elements ❤</a>
+        <a href="#text_elements" class="main-nav-item"> Text Elements ❤ </a>
+        <a href="#combined_elements" class="main-nav-item"> Combined Elements ❤ </a>
+        <a href="#about" class="main-nav-item"> Branding ❤ </a>
+        <a href="homepage.html" class="main-nav-item"> Our Website ❤ </a>
+        <a href="#citations" class="main-nav-item"> Citations ❤ </a>
+      </nav>
+    </div>
+
+    </header>
+
+      <h1>Cinnabox</h1>
+
+      <p>Cinnabox is an online shop that sells collectable blind box figures of the Sanrio character, Cinnamoroll and his friends.
+      There are many different series to chose from. Test your luck to get your favorite character or collect the whole family!</p>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link:</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.text-link</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="https://hellokitty.fandom.com/wiki/Cinnamoroll" target="_blank">Cinnamoroll;/a&gt;</code>
+
+        <h4>
+            Learn about
+            <a class = "text-link" href="https://hellokitty.fandom.com/wiki/Cinnamoroll" target="_blank">Cinnamoroll</a>
+            here!
+        </h4>
+      </section>
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+        <a class="button-nav" href="#">Add to cart</a>
+        <a class="button-nav" href="#">Check Out</a>
+        <a class="button-nav" href="#">Place Order</a>
+
+      </section>
+
+      <!-- Submit/Reset Button Section  -->
+      <!-- source: https://www.w3schools.com/tags/tag_label.asp -->
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+
+        <h4>CSS selector:</h4>
+        <p>login-label, login-input</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;label for="login" class="login-label"Email:/labelinput type="text" class="login-input" name="email"&gt;</code>
+
+        <h4>Log in</h4>
+          <form action="/action_page.php">
+            <label for="email2" class="login-label">Email:</label>
+            <input class="input-fill login-input" type="text" id="email2" name="email"><br>
+            <label for="password" class="login-label">Password:</label>
+              <input class="input-fill login-input" type="text" id="password" name="Password"><br>
+            <input class="button-nav" type="submit" value="Submit">
+            <input class="button-nav" type="reset" value="Reset">
+          </form>
+        </section>
+
+      <!--Contact Form  -->
+      <section class="element" id="contact">
+        <h3>Text Input Field with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>form-name</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;form method="post" action="#"> input type="text" id="form-name" placeholder="Type answer here!" /form &gt;</code>
+
+        <h4>Contact us here!</h4>
+          <form method="post" action="#">
+            <input class="input-fill" type="text" id="form-name" placeholder="Ask a question :)">
+          </form>
+      </section>
+
+      <!-- Radio Button  -->
+      <!-- source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio -->
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+
+        <h4>CSS selector:</h4>
+        <p>container, radio, checkmark</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;label class="container"input type="radio" checked="checked" name="radio"blue span class="checkmark"/spanbr /label &gt;</code>
+
+        <h4>Choose a Colour</h4>
+        <label class="container">
+          <input type="radio" checked="checked" name="radio">blue
+          <span class="checkmark"></span><br>
+        </label>
+        <label class="container">
+          <input type="radio" name="radio">pink
+          <span class="checkmark"></span><br>
+        </label>
+        <label class="container">
+          <input type="radio" name="radio">green
+          <span class="checkmark"></span><br>
+        </label>
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.cinna</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a target="_blank" href="https://images.app.goo.gl/oR83V6yJNqxkFrd47"img src="img/Cinnamoroll.png" alt="Cinnamoroll" &gt;</code>
+
+        <figure>
+          <a target="_blank" href="https://images.app.goo.gl/oR83V6yJNqxkFrd47"><img src="img/Cinnamoroll.png" alt="Cinnamoroll" id="cinna"></a>
+        </figure>
+      </section>
+
+    </section>
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <h4>CSS selector:</h4>
+      <p>h1,h2,h3,h4</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;h1Heading 1/h1 &gt;</code>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+      </section>
+
+      <!-- text source: https://hellokitty.fandom.com/wiki/Cinnamoroll -->
+      <section class="element">
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>h</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt; Cinnamoroll is a Sanrio character and a member of the Cinnamoroll universe. He was born on March 6, on a cloud far up in the sky./p &gt;</code>
+
+        <p>
+          Cinnamoroll is a Sanrio character and a member of the Cinnamoroll universe. He was born on March 6, on a cloud far up in the sky.
+          He is a small, shy and chubby dog with white fur, blue eyes, pink cheeks, a plump and curly tail that resembles a cinnamon roll (hence his name), and long ears that enable him to fly.
+          Cinnamon is shy but friendly, and always willing to help out his friends when they need it.
+        </p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector:</h4>
+        <p>ol</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;ol li Item 1 /li li>Item 2 /li li Item 3 /li /ol &gt;</code>
+
+        <h4>Cinnamoroll's Friends</h4>
+        <ol>
+          <li>
+            Mocha
+          </li>
+          <li>
+            Cappucino
+          </li>
+          <li>
+            Espresso
+          </li>
+          <li>
+            Chiffon
+          </li>
+          <li>
+            Milk
+          </li>
+        </ol>
+
+      </section>
+
+    </section>
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.nav-link</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#home"Home/a a href="#blind_boxes"Blind Boxes/a a href="#collections"Collections/a &gt;</code>
+
+        <div class="nav2-div">
+        <nav>
+
+        <div>
+         <a class="nav-item1" href="cinnabox.html">Styleguide ❤</a>
+         </div>
+
+          <div>
+         <a class="nav-item2" href="checkoutcart.html">Cart ❤</a>
+         </div>
+
+         <div>
+         <a class="nav-item3" href="#contact">Contact ❤</a>
+         </div>
+
+         <div>
+         <a class="nav-item4" href="productlisting.html">Blind Boxes ❤</a>
+         </div>
+
+         <div>
+         <a href="homepage.html" id="nav-logo2"> ❤ CINNABOX ❤  </a>
+         </div>
+
+        </nav>
+      </div>
+
+      </section>
+
+      <!-- PRODUCT SERVICE LISTING -->
+      <section class="element" id="blind_boxes">
+        <h3>Product/Service Listing</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.product-grid</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a target="_blank" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box" img src="img/BlindBox1.png" alt="Cinnamoroll"Cinnamoroll Blind Box - Original/h3h4>Price: $15/h4a class="button-nav" href="#"Add to cart/a &gt;</code>
+
+      <div class="product-grid">
+        <div class="product-grid-item1">
+        <figure>
+          <a class="product-img" href="productdescription.html"><img src="img/BlindBox1.png" class="productimg" alt="cinnaboxOG"></a>
+        </figure>
+        <h4>Cinnamoroll Blind Box - Original</h4>
+        <p>Price: $15</p>
+        <a class="button-nav" href="#">Add to cart</a>
+        </div>
+
+        <div class="product-grid-item2">
+        <figure>
+          <a target="_blank"  href="productdescription.html"><img src="img/BlindBox2.png"  class="productimg" alt="Cinnamoroll2"> </a>
+        </figure>
+        <h4 class="product-title">Cinnamoroll Blind Box - Valentine</h4>
+        <p class="product-price" >Price: $15</p>
+        <a class="button-nav" href="#">Add to cart</a>
+        </div>
+
+        <div class="product-grid-item3">
+        <figure>
+          <a target="_blank" class="product-img" href="productdescription.html"><img src="img/BlindBox3.png" class="productimg"  alt="Cinnamoroll3" ></a>
+        </figure>
+        <h4 class="product-title">Cinnamoroll Blind Box - Party</h4>
+        <p class="product-price" >Price: $15</p>
+        <a class="button-nav" href="#">Add to cart</a>
+        </div>
+       </div>
+      </section>
+
+        <!-- PAYMENT FORM -->
+      <section class="element">
+
+      <div class="payment-size">
+        <h3>Payment Form</h3>
+
+        <h4>CSS selector:</h4>
+        <p>label, input</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;form method="post" action="#" Full Name input type="text" id="form-name" placeholder="John Smith" /form &gt;</code>
+
+          <h4>Payment</h4>
+
+          <form>
+          <div class="checkout-form">
+          <!-- CREDIT CARD PAYMENT -->
+          <fieldset>
+          <legend>Credit Card Payment</legend>
+
+          <ul>
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+                <input class="input-payment type" type="text" placeholder="CARD NUMBER" required>
+              </label>
+            </div>
+
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="CARD HOLDER" required>
+              </label>
+            </div>
+          </li>
+
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="MM/YY" required>
+              </label>
+          </div>
+
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" id="save_yes_no" type="text" placeholder="CCV" required>
+              </label>
+            </div>
+          </li>
+
+          <li class="li-payment">
+            <label for="save_yes_no">Save Card Details</label>
+            <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
+            <input type="checkbox">
+          </li>
+
+          </ul>
+          </fieldset>
+          </div>
+          </form>
+
+          <div class="checkout-form">
+          <!-- SHIPPING INFO -->
+          <fieldset>
+          <legend>Shipping Information</legend>
+
+          <ul>
+
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="FIRST NAME" required>
+              </label>
+            </div>
+
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="LAST NAME" required>
+              </label>
+            </div>
+          </li>
+
+          <li class="li-payment">
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="ADDRESS" required>
+              </label>
+            </div>
+
+            <div class="div-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="APT/SUITE/UNIT NUMBER" required>
+              </label>
+            </div>
+          </li>
+
+          <li class="li-payment">
+            <label>
+            <input class="input-payment" type="text" placeholder="POSTAL CODE" required>
+            </label>
+          </li>
+
+          </ul>
+          </fieldset>
+
+          </div>
+
+          <div class="checkout-form">
+          <!-- BILLING INFO -->
+          <fieldset>
+          <legend>Billing Information</legend>
+
+          <ul>
+            <li class="li-payment">
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="FIRST NAME" required>
+                </label>
+              </div>
+
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="LAST NAME" required>
+                </label>
+              </div>
+            </li>
+
+            <li class="li-payment">
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="ADDRESS" required>
+                </label>
+              </div>
+
+              <div class="div-payment">
+                <label>
+                <input class="input-payment" type="text" placeholder="APT/SUITE/UNIT NUMBER" required>
+                </label>
+              </div>
+            </li>
+
+            <li class="li-payment">
+              <label>
+              <input class="input-payment" type="text" placeholder="POSTAL CODE" required>
+              </label>
+            </li>
+
+            <li class="li-payment">
+            <label for="save_yes_no">Same as Shipping</label>
+            <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
+            <input type="checkbox">
+            </li>
+
+            <li class="li-payment">
+              <input class="button-nav submit" type="Submit" value="SUBMIT">
+            </li>
+
+            </ul>
+            </fieldset>
+
+            </div>
+        </div>
+      </section>
+
+
+      <!-- CHECKOUT CART -->
+      <section class="element" id="cart">
+        <h3>Checkout Cart</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.item-cart</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;nav a href="#combined_elements" Cinnamoroll Blind Box - Original /a /nav price: $15 &gt;</code>
+
+        <h3>Cart</h3>
+        <h4>Total Items: 3</h4>
+        <div class="checkout-box">
+
+        <div class="checkout-box-item-image">
+
+          <figure>
+          <img src="img/BlindBox1.png" class="img-checkout" alt="melody slippers">
+          </figure>
+
+        </div>
+
+        <div class="checkout-box-item-text">
+          <h4> Cinnaroll Box Original</h4>
+          <p>1x $15.00</p>
+        </div>
+
+        <div class="checkout-box2">
+
+          <div class="checkout-box2-item-image">
+            <figure>
+            <img src="img/BlindBox2.png" class="img-checkout" alt="hello kitty slippers">
+            </figure>
+          </div>
+
+          <div class="checkout-box-item-text">
+            <h4> Cinnaroll Box Valentine</h4>
+            <p>1x $15.00</p>
+          </div>
+
+        </div>
+
+        <div class="checkout-box3">
+          <div class="checkout-box3-item-image">
+            <figure>
+            <img src="img/BlindBox3.png" class="img-checkout" alt="hello kitty slippers">
+            </figure>
+          </div>
+
+          <div class="checkout-box3-item-text">
+            <h4> Cinnaroll Box Party</h4>
+            <p>1x $15.00</p>
+          </div>
+        </div>
+
+        <div class="checkout-box4-item">
+          <!--https://www.javatpoint.com/how-to-add-a-line-in-html-->
+          <h4>Total: $45.00</h4>
+          <a class="button-nav" href="#">CHECKOUT</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- // BRANDING SECTION -->
+    <section id="about">
+        <h2>Branding</h2>
+        <h4>What does the company do, or offer?</h4>
+        <p>Cinnabox is an online shop that sells collectable blind box figures of the Sanrio character, Cinnamoroll and his friends.
+        There are many different series to chose from. Test your luck to get your favorite character or collect the whole family!</p>
+        <h4>Who is the company to potential customers?</h4>
+        <p>While Cinnabox's collectibles appeals for enthusiasts of all ages, the primary target demographic spans from children to young adults. The diverse range of figures are curated to resonate with the whimsical and imaginative interests of younger individuals, while young adults appreciate the nostalgic charm and artistry. </p>
+        <h4>Why might this company entice someone to purchase a product or service</h4>
+        <p> There are many ways that Cinnabox entices someone to purchase a product. Firstly, blind boxes offer an element of surprise and excitement. The suspense and anticipation of not knowing what you will get keeps customers engaged. Furthermore, because of their collectable aspect, customers will be motivated to continue purchasing these figures. With a wide range of collections, there is something for everyone.</p>
+
+      <section class="element">
+        <h3>Fonts</h3>
+        <h1>Gelica</h1>
+        <h4>Work Sans</h4>
+      </section>
+
+      <section class="element">
+        <h3>Colour Palette</h3>
+        <div class="colour1 palette-container">
+          <p class="palette-p white-text">Primary<br>#422E18</p>
+        </div>
+        <div class="colour2 palette-container">
+          <p class="palette-p">Background<br>#FCF9F5</p>
+        </div>
+        <div class="colour3 palette-container">
+          <p class="palette-p">Secondary<br>#F5ECE1</p>
+        </div>
+        <div class="colour4 palette-container">
+          <p class="palette-p">Secondary<br>#EF9CA7</p>
+        </div>
+      </section>
+      <section class="element">
+      <h4>Potential imagery, and, or, art direction</h4>
+      <p> The art direction for Cinnabox is very playful. It incoorporates rounded fonts that provide a very youthful energy. The colour palette contains a wide array of pastel colours to match the packaging of the products and create a magical world for customers to connect with their inner child. </p>
+      </section>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="element">
+      <h3>Footer</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.footer</p>
+
+      <h4>Sample code:</h4>
+      <code>&lt;a href="#home"Home/a a href="#blind_boxes"Blind Boxes/a a href="#collections"Collections/a &gt;</code>
+
+      <footer>
+      <div class="footer-grid" >
+      <div class="footer-item1">
+        <h4> ❤ABOUT US❤ </h4>
+        <p> At Cinnabox, we believe in the joy of surprises and the thrill of discovery. Room for all things cute and collectible to curate a treasure trove of blind box figures.   </p>
+      </div>
+
+      <div class="footer-item2">
+        <h4> FIND US❤ </h4>
+        <div>
+        <a class ="footer-link" href="#aboutus">INSTAGRAM: @CINNABOX</a>
+        </div>
+
+        <div>
+        <a class ="footer-link" href="#footer">FACEBOOK: @CINNABOX</a>
+       </div>
+
+       <div>
+         <a class="footer-link" href="footer">ADDRESS: 123 Cinnamon Lane, Sweetville, Toyland, CBX 555, Wonderland</a>
+       </div>
+
+      </div>
+
+      <div class="footer-item3">
+        <h4> CONTACT❤ </h4>
+
+        <form action="/action_page.php">
+          <label for="email1" class="login-label">Email:</label>
+          <input class="input-textarea-email login-input" type="text" id="email1" name="email"><br>
+
+          <label for="message" class="login-label">Input Message:</label>
+            <input class="input-textarea login-input" type="text" id="message"  name="Password"><br>
+          <input class="button-nav" type="submit" value="SUBMIT">
+        </form>
+
+      </div>
+      </div>
+      </footer>
+
+    </section>
+    </section>
+
+    <!-- CITATIONS -->
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Rowland, Dave. Designer. (2024).<strong>Gelica[Font].</strong> Retrieved from <a href="https://fonts.adobe.com/fonts/gelica">https://fonts.adobe.com/fonts/gelica</a></li>
+        <li>Huang, Wei. Designer. (2020).<strong>Work Sans [Font].</strong> Retrieved from <a href="https://fonts.google.com/specimen/Work+Sans">https://fonts.google.com/specimen/Work+Sans</a></li>
+        <li>Blind Box Empire. (2024).<strong>Cinnamoroll Weekend Plans Blind Box [Image].</strong> Retrieved from <a href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box">https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box</a></li>
+        <li>Blind Box Empire. (2024).<strong>Moetch Cinnamoroll Decompression Club Series [Image].</strong> Retrieved from <a href="https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series">https://blindboxempire.com/products/moetch-cinnamoroll-decompression-club-series</a></li>
+        <li>Art Box. (2024).<strong>Moetch Cinnamoroll Decompression Club Series [Image].</strong> Retrieved from <a href="https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html">https://www.artbox.co.uk/cinnamoroll-after-party-mini-figure-blind~p20866.html</a></li>
+        <li>Hello Kitty Wiki. (2024).<strong>Cinnamoroll [Image].</strong> Retrieved from <a href="https://hellokitty.fandom.com/wiki/Cinnamoroll">https://hellokitty.fandom.com/wiki/Cinnamoroll</a></li>
+        <li>HTML label tag. (n.d.). https://www.w3schools.com/tags/tag_label.asp <a href="https://www.w3schools.com/tags/tag_label.asp">https://www.w3schools.com/tags/tag_label.asp</a>.</li>
+        <li>W3Schools online HTML editor. W3Schools Tryit Editor. (n.d.). https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio">https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio</a>.</li>
+        <li>Wiki, C. to H. K. (n.d.). Cinnamoroll. Hello Kitty Wiki. https://hellokitty.fandom.com/wiki/Cinnamoroll <a href="https://hellokitty.fandom.com/wiki/Cinnamoroll">https://hellokitty.fandom.com/wiki/Cinnamoroll</a>.</li>
+        <li>Ebay. (2024).<strong>Sanrio Characters Star Angel Blind Box Series by Sanrio x Miniso new [Image].</strong> Retrieved from <a href="https://www.ebay.ca/itm/314695274063">https://www.ebay.ca/itm/314695274063</a></li>
+        <li>Aliexpress. (2024).<strong>Miniso Sanrio Bihai Holiday Blind Box Pvc Trendy Figure Kulomi Melody Cinnamon Dog Pudding Dog Shell Ornaments Girl'S Toy Gift [Image].</strong> Retrieved from <a href="https://www.aliexpress.com/item/1005005592946344.html">https://www.aliexpress.com/item/1005005592946344.html</a></li>
+        <li>Ebay. (2024).<strong>Miniso Sanrio Characters Little Container Series 6pcs Blind Box Figure Model [Image].</strong> Retrieved from <a href="https://www.ebay.ca/itm/325723985380">https://www.ebay.ca/itm/325723985380</a></li>
+        <li>Mindzai. (2024).<strong>Cinnamoroll Cooking House Blind Box Series by Sanrio x Miniso [Image].</strong> Retrieved from <a href="https://www.mindzai.ca/products/cinnamoroll-cooking-house-blind-box-series-by-sanrio-x-miniso">https://www.mindzai.ca/products/cinnamoroll-cooking-house-blind-box-series-by-sanrio-x-miniso</a></li>
+      </ul>
+
+    </section>
+      </div>
+  </body>
+
+</html>
