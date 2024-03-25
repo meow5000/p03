@@ -22,7 +22,7 @@
         <nav>
 
           <div>
-           <a class="nav-item1" href="cinnabox.html">PROJECT 1</a>
+           <a class="nav-item1" href="cinnabox.html">ABOUT</a>
            </div>
 
             <div>
@@ -30,7 +30,7 @@
            </div>
 
            <div>
-           <a class="nav-item3" href="#footer">ABOUT</a>
+           <a class="nav-item3" href="#footer">PROJECT 1</a>
            </div>
 
          <div>
@@ -46,7 +46,7 @@
         <a href="#interactive_elements" class="main-nav-item"> Interactive Elements</a>
         <a href="#text_elements" class="main-nav-item"> Text Elements</a>
         <a href="#combined_elements" class="main-nav-item"> Combined Elements </a>
-        <a href="#about" class="main-nav-item"> Ethos✧ </a>
+        <a href="#about" class="main-nav-item"> Ethos </a>
         <a href="homepage.html" class="main-nav-item"> Portfolio </a>
         <a href="#citations" class="main-nav-item"> Citations </a>
       </nav>
@@ -63,59 +63,34 @@
       <h2>Interactive Elements</h2>
 
       <section class="element">
-        <h3>In-text link:</h3>
+        <h3>Navigation Link:</h3>
 
         <h4>CSS selector:</h4>
         <p>.text-link</p>
 
         <h4>Sample code:</h4>
-        <code>&lt;a href="https://hellokitty.fandom.com/wiki/Cinnamoroll" target="_blank">Cinnamoroll;/a&gt;</code>
+        <code>&lt;a href="" target="_blank">Read More;/a&gt;</code>
 
         <h4>
             Learn about
-            <a class = "text-link" href="https://hellokitty.fandom.com/wiki/Cinnamoroll" target="_blank">Cinnamoroll</a>
+            <a class = "text-link" href="" target="_blank">Read More</a>
             here!
         </h4>
-      </section>
-
-      <!-- Default Button styling section -->
-      <section class="element">
-
-        <h3>Navigation Link</h3>
-        <h4>CSS selector:</h4>
-        <p>.button-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a>
-        <a class="button-nav" href="#">Add to cart</a>
-        <a class="button-nav" href="#">Check Out</a>
-        <a class="button-nav" href="#">Place Order</a>
-
       </section>
 
       <!-- Submit/Reset Button Section  -->
       <!-- source: https://www.w3schools.com/tags/tag_label.asp -->
       <section class="element">
-        <h3>Submit/Reset Buttons</h3>
+        <h3>Submit:</h3>
 
         <h4>CSS selector:</h4>
-        <p>login-label, login-input</p>
+        <p>button-nav</p>
 
         <h4>Sample code:</h4>
-        <code>&lt;label for="login" class="login-label"Email:/labelinput type="text" class="login-input" name="email"&gt;</code>
+        <code>&lt;input class="button-nav" type="submit" value="SUBMIT"&gt;</code>
+          <input class="button-nav" type="submit" value="SUBMIT">
 
-        <h4>Log in</h4>
-          <form action="/action_page.php">
-            <label for="email2" class="login-label">Email:</label>
-            <input class="input-fill login-input" type="text" id="email2" name="email"><br>
-            <label for="password" class="login-label">Password:</label>
-              <input class="input-fill login-input" type="text" id="password" name="Password"><br>
-            <input class="button-nav" type="submit" value="Submit">
-            <input class="button-nav" type="reset" value="Reset">
-          </form>
+
         </section>
 
       <!--Contact Form  -->
@@ -128,41 +103,20 @@
         <h4>Sample code:</h4>
         <code>&lt;form method="post" action="#"> input type="text" id="form-name" placeholder="Type answer here!" /form &gt;</code>
 
-        <h4>Contact us here!</h4>
-          <form method="post" action="#">
-            <input class="input-fill" type="text" id="form-name" placeholder="Ask a question :)">
-          </form>
-      </section>
+        <h4> Got Questions?</h4>
+        <form action="/action_page.php">
+          <label for="email1" class="login-label">Email:</label>
+          <input class="input-textarea-email login-input" type="text" id="email1" name="email"><br>
 
-      <!-- Radio Button  -->
-      <!-- source: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio -->
-      <section class="element">
-        <h3>Radio Button with Label</h3>
-
-        <h4>CSS selector:</h4>
-        <p>container, radio, checkmark</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;label class="container"input type="radio" checked="checked" name="radio"blue span class="checkmark"/spanbr /label &gt;</code>
-
-        <h4>Choose a Colour</h4>
-        <label class="container">
-          <input type="radio" checked="checked" name="radio">blue
-          <span class="checkmark"></span><br>
-        </label>
-        <label class="container">
-          <input type="radio" name="radio">pink
-          <span class="checkmark"></span><br>
-        </label>
-        <label class="container">
-          <input type="radio" name="radio">green
-          <span class="checkmark"></span><br>
-        </label>
+          <label for="message" class="login-label">Ask me anything.. :)</label>
+            <input class="input-textarea login-input" type="text" id="message"  name="Password"><br>
+          <input class="button-nav" type="submit" value="SUBMIT">
+        </form>
       </section>
 
 
       <section class="element">
-        <h3>Image as a Link</h3>
+        <h3>Image as a Link:</h3>
 
         <h4>CSS selector:</h4>
         <p>.cinna</p>
@@ -188,7 +142,7 @@
       <code>&lt;h1Heading 1/h1 &gt;</code>
 
       <section class="element">
-        <h3>Headings</h3>
+        <h3>Headings:</h3>
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
@@ -197,7 +151,7 @@
 
       <!-- text source: https://hellokitty.fandom.com/wiki/Cinnamoroll -->
       <section class="element">
-        <h3>Paragraphs</h3>
+        <h3>Paragraphs:</h3>
 
         <h4>CSS selector:</h4>
         <p>h</p>
@@ -213,7 +167,7 @@
       </section>
 
       <section class="element">
-        <h3>Numbered Lists</h3>
+        <h3>Lists:</h3>
 
         <h4>CSS selector:</h4>
         <p>ol</p>
@@ -249,7 +203,7 @@
       <h2>Combined Elements</h2>
 
       <section class="element">
-        <h3>Main Navigation</h3>
+        <h3>Main Navigation:</h3>
 
         <h4>CSS selector:</h4>
         <p>.nav-link</p>
@@ -287,7 +241,7 @@
 
       <!-- PRODUCT SERVICE LISTING -->
       <section class="element" id="blind_boxes">
-        <h3>Product/Service Listing</h3>
+        <h3>Project Listing: Project Description:</h3>
 
         <h4>CSS selector:</h4>
         <p>.product-grid</p>
@@ -329,7 +283,7 @@
       <section class="element">
 
       <div class="payment-size">
-        <h3>Payment Form</h3>
+        <h3>Contact Me:</h3>
 
         <h4>CSS selector:</h4>
         <p>label, input</p>
@@ -491,7 +445,7 @@
 
       <!-- CHECKOUT CART -->
       <section class="element" id="cart">
-        <h3>Checkout Cart</h3>
+        <h3>About Me:</h3>
 
         <h4>CSS selector:</h4>
         <p>.item-cart</p>
@@ -554,36 +508,34 @@
 
     <!-- // BRANDING SECTION -->
     <section id="about">
-        <h2>Branding</h2>
-        <h4>What does the company do, or offer?</h4>
+        <h2>Ethos:</h2>
+        <h4>biography:</h4>
         <p>Cinnabox is an online shop that sells collectable blind box figures of the Sanrio character, Cinnamoroll and his friends.
         There are many different series to chose from. Test your luck to get your favorite character or collect the whole family!</p>
-        <h4>Who is the company to potential customers?</h4>
+        <h4>Project Analysis 1?</h4>
         <p>While Cinnabox's collectibles appeals for enthusiasts of all ages, the primary target demographic spans from children to young adults. The diverse range of figures are curated to resonate with the whimsical and imaginative interests of younger individuals, while young adults appreciate the nostalgic charm and artistry. </p>
-        <h4>Why might this company entice someone to purchase a product or service</h4>
+        <h4>Project Analysis 2</h4>
         <p> There are many ways that Cinnabox entices someone to purchase a product. Firstly, blind boxes offer an element of surprise and excitement. The suspense and anticipation of not knowing what you will get keeps customers engaged. Furthermore, because of their collectable aspect, customers will be motivated to continue purchasing these figures. With a wide range of collections, there is something for everyone.</p>
 
       <section class="element">
-        <h3>Fonts</h3>
+        <h3>Fonts:</h3>
         <h1>Test Domaine Display</h1>
-        <h4>Futura</h4>
+        <h2>Futura</h2>
       </section>
 
       <section class="element">
-        <h3>Colour Palette</h3>
+        <h3>Colour Palette:</h3>
         <div class="colour1 palette-container">
-          <p class="palette-p white-text">Primary<br>#422E18</p>
+          <p class="palette-p white-text">Primary<br>#630000</p>
         </div>
         <div class="colour2 palette-container">
-          <p class="palette-p">Background<br>#FCF9F5</p>
+          <p class="palette-p">Background<br>#F8EEEE</p>
         </div>
         <div class="colour3 palette-container">
-          <p class="palette-p">Secondary<br>#F5ECE1</p>
-        </div>
-        <div class="colour4 palette-container">
-          <p class="palette-p">Secondary<br>#EF9CA7</p>
+          <p class="palette-p">Secondary<br>#FFFBFB</p>
         </div>
       </section>
+
       <section class="element">
       <h4>Potential imagery, and, or, art direction</h4>
       <p> The art direction for Cinnabox is very playful. It incoorporates rounded fonts that provide a very youthful energy. The colour palette contains a wide array of pastel colours to match the packaging of the products and create a magical world for customers to connect with their inner child. </p>
@@ -603,7 +555,7 @@
       <footer>
       <div class="footer-grid" >
       <div class="footer-item1">
-        <h4> ❤ABOUT US❤ </h4>
+        <h4> ❤ US❤ </h4>
         <p> At Cinnabox, we believe in the joy of surprises and the thrill of discovery. Room for all things cute and collectible to curate a treasure trove of blind box figures.   </p>
       </div>
 

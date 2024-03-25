@@ -20,21 +20,7 @@
 	min-width: 100%;
 }
 
-/*
-.grid-row::after {
-	content: "";
-	display: block;
-	clear: both;
-	flex-direction: row;
-}
 
-[class^='grid-col-'] {
-	float: left;
-	padding: 0;
-
-}
-
-*/
 body {
 	/* padding if add nav bar*/
 	padding-top: 2rem;
