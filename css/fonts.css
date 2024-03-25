@@ -2,24 +2,24 @@
 
 
 @font-face {
-    font-family: 'Gelica';
-    src: url('../css/fonts/fontspring-demo-gelica-black.otf') format('woff2');
+    font-family: 'testdomainedisplay';
+    src: url('../css/fonts/testdomainedisplay-medium-webfont.woff') format('woff2');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: url('../css/fonts/WorkSans-Bold.ttf') format('woff2');
+    font-family: 'futura_light_italic_font';
+    src: url('../css/fonts/futura_light_italic_font-webfont-woff') format('woff2');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
 
 @font-face {
-    font-family: 'WorkSans';
-    src: url('../css/fonts/WorkSans-Regular.ttf') format('woff2');
+    font-family: 'futura_book_font';
+    src: url('../css/fonts/futura_book_font-webfont.woff') format('woff2');
     font-weight: normal;
     font-style: normal;
 
