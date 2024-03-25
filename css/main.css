@@ -509,14 +509,13 @@ hr{
 
 
 
-#project-img{
-  width: 250px;
-  height: 450px;
+.project-img{
+  width: 450px;
+  height: 200px;
   border: 1px solid #630000;
-  padding: 30px;
 }
 
-#project-img:hover{
+.project-img:hover{
   border: 3px solid #630000;
 }
 
@@ -529,31 +528,24 @@ hr{
 
 .product-grid-item1{
   margin-top: 20px;
-  border: 6px solid #F5ECE1;
 }
 
 .product-grid-item2{
   margin-top: 50px;
-  border: 6px solid #F5ECE1;
 }
 
 .product-grid-item3{
   margin-top: 50px;
-  border: 6px solid #F5ECE1;
 }
 
 .product-grid-item4{
   margin-top: 50px;
-  border: 6px solid #F5ECE1;
 }
 
 .product-grid-item5{
   margin-top: 50px;
-  border: 6px solid #F5ECE1;
 }
 
 .product-grid-item6{
   margin-top: 50px;
-  border: 6px solid #F5ECE1;
-
 }

@@ -125,7 +125,7 @@
         <code>&lt;a " href=""img src="img/example.png" alt="Cinnamoroll" &gt;</code>
 
         <figure>
-          <a  href=""><img src="img/example.png" alt="Cinnamoroll" id="project-img"></a>
+          <a  href=""><img src="img/example.png" alt="Cinnamoroll" class="project-img"></a>
         </figure>
       </section>
 
@@ -229,7 +229,39 @@
 
       <!-- PRODUCT SERVICE LISTING -->
       <section class="element" id="blind_boxes">
-        <h3>Project Listing: Project Description:</h3>
+        <h3>Project Listing:</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.product-grid</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a target="_blank" href="https://blindboxempire.com/products/cinnamoroll-weekend-plans-blind-box" img src="img/BlindBox1.png" alt="Cinnamoroll"Cinnamoroll Blind Box - Original/h3h4>Price: $15/h4a class="button-nav" href="#"Add to cart/a &gt;</code>
+
+      <div class="product-grid">
+        <div class="product-grid-item1">
+        <h4>Animated Instagram Reel</h4>
+        <figure>
+          <a class="product-img" href="productdescription.html"><img src="img/example.png" class="project-img" alt="cinnaboxOG"></a>
+        </figure>
+        <p>This is an animated marketting campaign made with Figma and adobe After Effects</p>
+        <a class = "text-link" href="" target="_blank">Read More</a>
+        </div>
+
+        <div class="product-grid-item2">
+          <h4>Animated Instagram Reel</h4>
+          <figure>
+            <a class="product-img" href="productdescription.html"><img src="img/example.png" class="project-img" alt="cinnaboxOG"></a>
+          </figure>
+          <p> This is an animated marketting campaign made with Figma and adobe After Effects</p>
+          <a class = "text-link" href="" target="_blank">Read More</a>
+          </div>
+       </div>
+      </section>
+
+
+      <!-- PRODUCT SERVICE LISTING -->
+      <section class="element" id="blind_boxes">
+        <h3>Project Description:</h3>
 
         <h4>CSS selector:</h4>
         <p>.product-grid</p>
@@ -279,154 +311,20 @@
         <h4>Sample code:</h4>
         <code>&lt;form method="post" action="#" Full Name input type="text" id="form-name" placeholder="John Smith" /form &gt;</code>
 
-          <h4>Payment</h4>
-
-          <form>
-          <div class="checkout-form">
-          <!-- CREDIT CARD PAYMENT -->
-          <fieldset>
-          <legend>Credit Card Payment</legend>
-
           <ul>
           <li class="li-payment">
             <div class="div-payment">
-              <label>
-                <input class="input-payment type" type="text" placeholder="CARD NUMBER" required>
-              </label>
-            </div>
+              <h4>Got Questions?</h4>
+            <form action="/action_page.php">
+              <label for="email1" class="login-label">Email:</label>
+              <input class="input-textarea-email login-input" type="text" id="email1" name="email"><br>
 
-            <div class="div-payment">
-              <label>
-              <input class="input-payment" type="text" placeholder="CARD HOLDER" required>
-              </label>
-            </div>
-          </li>
-
-          <li class="li-payment">
-            <div class="div-payment">
-              <label>
-              <input class="input-payment" type="text" placeholder="MM/YY" required>
-              </label>
-          </div>
-
-            <div class="div-payment">
-              <label>
-              <input class="input-payment" id="save_yes_no" type="text" placeholder="CCV" required>
-              </label>
+              <label for="message" class="login-label">Ask me anything :)</label>
+                <input class="input-textarea login-input" type="text" id="message"  name="Password"><br>
+              <input class="button-nav" type="submit" value="SUBMIT">
+            </form>
             </div>
           </li>
-
-          <li class="li-payment">
-            <label for="save_yes_no">Save Card Details</label>
-            <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
-            <input type="checkbox">
-          </li>
-
-          </ul>
-          </fieldset>
-          </div>
-          </form>
-
-          <div class="checkout-form">
-          <!-- SHIPPING INFO -->
-          <fieldset>
-          <legend>Shipping Information</legend>
-
-          <ul>
-
-          <li class="li-payment">
-            <div class="div-payment">
-              <label>
-              <input class="input-payment" type="text" placeholder="FIRST NAME" required>
-              </label>
-            </div>
-
-            <div class="div-payment">
-              <label>
-              <input class="input-payment" type="text" placeholder="LAST NAME" required>
-              </label>
-            </div>
-          </li>
-
-          <li class="li-payment">
-            <div class="div-payment">
-              <label>
-              <input class="input-payment" type="text" placeholder="ADDRESS" required>
-              </label>
-            </div>
-
-            <div class="div-payment">
-              <label>
-              <input class="input-payment" type="text" placeholder="APT/SUITE/UNIT NUMBER" required>
-              </label>
-            </div>
-          </li>
-
-          <li class="li-payment">
-            <label>
-            <input class="input-payment" type="text" placeholder="POSTAL CODE" required>
-            </label>
-          </li>
-
-          </ul>
-          </fieldset>
-
-          </div>
-
-          <div class="checkout-form">
-          <!-- BILLING INFO -->
-          <fieldset>
-          <legend>Billing Information</legend>
-
-          <ul>
-            <li class="li-payment">
-              <div class="div-payment">
-                <label>
-                <input class="input-payment" type="text" placeholder="FIRST NAME" required>
-                </label>
-              </div>
-
-              <div class="div-payment">
-                <label>
-                <input class="input-payment" type="text" placeholder="LAST NAME" required>
-                </label>
-              </div>
-            </li>
-
-            <li class="li-payment">
-              <div class="div-payment">
-                <label>
-                <input class="input-payment" type="text" placeholder="ADDRESS" required>
-                </label>
-              </div>
-
-              <div class="div-payment">
-                <label>
-                <input class="input-payment" type="text" placeholder="APT/SUITE/UNIT NUMBER" required>
-                </label>
-              </div>
-            </li>
-
-            <li class="li-payment">
-              <label>
-              <input class="input-payment" type="text" placeholder="POSTAL CODE" required>
-              </label>
-            </li>
-
-            <li class="li-payment">
-            <label for="save_yes_no">Same as Shipping</label>
-            <!--- cite https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio / found out that radio is an attribute type i can use -->
-            <input type="checkbox">
-            </li>
-
-            <li class="li-payment">
-              <input class="button-nav submit" type="Submit" value="SUBMIT">
-            </li>
-
-            </ul>
-            </fieldset>
-
-            </div>
         </div>
       </section>
 
