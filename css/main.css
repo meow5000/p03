@@ -19,6 +19,9 @@ body {
   margin: 3rem 3rem;
 }
 
+
+
+
 h1 {
   font-family: "testdomainedisplay";
   font-weight: 800;
@@ -28,9 +31,9 @@ h1 {
 }
 
 h2 {
-  font-family: "futura_book_font";
+  font-family: "testdomainedisplay";
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-top: 2rem;
 }
 
@@ -111,6 +114,7 @@ padding-top: 2rem;
   right: 0;
   left: 0;
   z-index: 10;
+  border-bottom: 1px solid #630000;
 }
 
 .nav-item{
@@ -197,6 +201,10 @@ padding-top: 2rem;
   font-size: 1rem;
 }
 
+
+.text-center {
+  text-align: center;
+}
 /* payment*/
 .div-payment {
     display: inline-block;
@@ -451,6 +459,7 @@ hr{
   width: 100%;
   display: inline-block;
   padding:5rem;
+  border-top: 1px solid #630000;
 }
 
 .bio-element2{
@@ -483,9 +492,11 @@ hr{
 .background-element{
   width: 100%;
   display: inline-block;
-  background-color: #F5ECE1;
+  background-color: #F8EEEE;
   padding-left:5rem;
   padding-right:5rem;
+  border-top: 1px solid #630000;
+
 }
 
 .events-element{

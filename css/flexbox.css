@@ -57,6 +57,8 @@ body {
   transition: border-color 0.3s;
 }
 
+
+
 .product-grid-item2 {
 	-webkit-flex: 1;
 	-ms-flex: 1;
@@ -245,7 +247,7 @@ body {
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 	flex-direction: row;
-	border: 1px solid #630000;
+	border-top: 1px solid #630000;
 
 }
 
@@ -328,6 +330,7 @@ body {
 	flex-direction: row;
 
 }
+
 
 .product-desc-item1{
 	-webkit-flex: 1;
