@@ -26,8 +26,9 @@ body {
 	padding-top: 2rem;
 }
 
-/* PRODUCT LISTING GRID*/
-.product-grid {
+
+/* PROJECT LISTING GRID*/
+.projectlisting-grid {
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
@@ -44,7 +45,7 @@ body {
 	min-width: 100%;
 }
 
-.product-grid-item1 {
+.projectlisting-grid-item1 {
 	-webkit-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
@@ -59,7 +60,7 @@ body {
 
 
 
-.product-grid-item2 {
+.projectlisting-grid-item2 {
 	-webkit-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
@@ -72,7 +73,7 @@ body {
   transition: border-color 0.3s;
 }
 
-.product-grid-item3 {
+.projectlisting-grid-item3 {
 	-webkit-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
@@ -82,143 +83,6 @@ body {
   margin: 20px 45px;
   text-align: center;
   transition: border-color 0.3s;
-}
-
-.product-grid-item4 {
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
-	order:4;
-  width: 290px;
-  margin: 20px 45px;
-  text-align: center;
-  transition: border-color 0.3s;
-}
-
-.product-grid-item5 {
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
-	order:5;
-  width: 290px;
-  margin: 20px 45px;
-  text-align: center;
-  transition: border-color 0.3s;
-}
-
-.product-grid-item6 {
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
-	order:6;
-  width: 290px;
-  margin: 20px 45px;
-  text-align: center;
-  transition: border-color 0.3s;
-}
-
-/* CHECKOUT PAGE GRID */
-.checkout-grid{
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-
-		-webkit-justify-content: space-around;
-		-ms-justify-content: space-around;
-		justify-content: space-around;
-		flex-direction: column;
-}
-
-.checkout-box-item-image{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
-	order:1;
-
-
-}
-.checkout-box-item-text{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 0rem;
-	order:2;
-}
-
-
-.checkout-box2{
-
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-
-		-webkit-justify-content: space-around;
-		-ms-justify-content: space-around;
-		justify-content: space-around;
-		flex-direction: column;
-
-}
-
-.checkout-box2-item-image{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
-	order:1;
-
-}
-
-.checkout-box2-item-text2{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 2;
-	padding: 1rem;
-	order:2;
-}
-
-.checkout-box3{
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-
-		-webkit-justify-content: space-around;
-		-ms-justify-content: space-around;
-		justify-content: space-around;
-		flex-direction: column;
-}
-
-.checkout-box3-item-text{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
-	order:1;
-}
-
-.checkout-box4-item{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
-	order:1;
-	width:100%;
-	color: black;
 }
 
 /* FOOTER */
@@ -282,7 +146,9 @@ body {
 	text-decoration: none;
 }
 
-.checkoutpage-grid{
+/* about page */
+
+.aboutpage-grid{
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
@@ -297,25 +163,26 @@ body {
 	flex-direction: row;
 }
 
-.checkoutpage-grid-item1{
-	-webkit-flex: 1;
-	-ms-flex: 1;
+.aboutpage-grid-item1{
+	-webkit-flex: 2;
+	-ms-flex: 2;
 	flex: 2;
 	padding: 1rem;
 	order:1;
 }
 
-.checkoutpage-grid-item2{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	padding: 1rem;
+.aboutpage-grid-item2{
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+	padding: 5rem;
 	order:2;
 }
 
-/* product desc grid */
-.product-desc-grid {
 
+/* prod desc page */
+
+.projectdescriptionpage-grid{
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
@@ -328,22 +195,20 @@ body {
 	-ms-justify-content: space-around;
 	justify-content: space-around;
 	flex-direction: row;
-
 }
 
-
-.product-desc-item1{
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
+.projectdescriptionpage-grid-item1{
+	-webkit-flex: 2;
+	-ms-flex: 2;
+	flex: 2;
 	padding: 1rem;
 	order:1;
 }
 
-.product-desc-item2{
+.projectdescriptionpage-grid-item2{
 	-webkit-flex: 1;
 	-ms-flex: 1;
 	flex: 1;
-	padding: 1rem;
+	padding: 5rem;
 	order:2;
 }
